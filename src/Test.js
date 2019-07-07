@@ -12,7 +12,7 @@ class Test extends Component {
     };
 
     componentDidMount() {
-        console.log(this.props.rootstore.todostore);
+        console.log(this.props.rootstore);
     }
     handleChange = (e) => {
         this.setState({
